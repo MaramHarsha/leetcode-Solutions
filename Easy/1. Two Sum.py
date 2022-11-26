@@ -19,11 +19,11 @@ class Solution:
                 d[value] = index
 
 '''
-We will create an empty dictionary, then enumerate with index and we will get nums array then
-we will check what is target - index or target - nums[index]
-That is required number. If it is already in dictionary then we will return it
-or we will put (eg) d[2] = 0 matlab 2:0
-
-then with this it is done then we will return d[2] i.e 0 and index means 
-at that time it present index ie. 1
+Hum ek empty dictionary banayenge, 
+phir enumerate se index and values ajayegi nums array ki 
+then hum check karenge ki target - index or target - nums[index] kya hai 
+That is required number. Agar woh already dictionary me hai then we will return it
+warna we will put (eg) d[2] = 0 matlab 2:0
+Phir jab iske sath ka target hoga then we will return d[2] i.e 0 and index means 
+us time ka present index ie. 1
 '''
